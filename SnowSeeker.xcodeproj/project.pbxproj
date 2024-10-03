@@ -14,6 +14,7 @@
 		D5882B702CAEBE86000CBE87 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = D5882B6F2CAEBE86000CBE87 /* resorts.json */; };
 		D5882B722CAEBF50000CBE87 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5882B712CAEBF50000CBE87 /* Resort.swift */; };
 		D5882B742CAEC114000CBE87 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5882B732CAEC114000CBE87 /* Bundle-Decodable.swift */; };
+		D5882B782CAEEC02000CBE87 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5882B772CAEEC02000CBE87 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D5882B6F2CAEBE86000CBE87 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		D5882B712CAEBF50000CBE87 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
 		D5882B732CAEC114000CBE87 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		D5882B772CAEEC02000CBE87 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +59,12 @@
 		D5882B602CAAFD6D000CBE87 /* SnowSeeker */ = {
 			isa = PBXGroup;
 			children = (
-				D5882B612CAAFD6D000CBE87 /* SnowSeekerApp.swift */,
+				D5882B732CAEC114000CBE87 /* Bundle-Decodable.swift */,
 				D5882B632CAAFD6D000CBE87 /* ContentView.swift */,
 				D5882B6F2CAEBE86000CBE87 /* resorts.json */,
 				D5882B712CAEBF50000CBE87 /* Resort.swift */,
-				D5882B732CAEC114000CBE87 /* Bundle-Decodable.swift */,
+				D5882B612CAAFD6D000CBE87 /* SnowSeekerApp.swift */,
+				D5882B772CAEEC02000CBE87 /* WelcomeView.swift */,
 				D5882B652CAAFD6E000CBE87 /* Assets.xcassets */,
 				D5882B672CAAFD6E000CBE87 /* Preview Content */,
 			);
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5882B782CAEEC02000CBE87 /* WelcomeView.swift in Sources */,
 				D5882B642CAAFD6D000CBE87 /* ContentView.swift in Sources */,
 				D5882B722CAEBF50000CBE87 /* Resort.swift in Sources */,
 				D5882B622CAAFD6D000CBE87 /* SnowSeekerApp.swift in Sources */,
